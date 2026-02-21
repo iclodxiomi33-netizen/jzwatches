@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مجموعة رولكس</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background: #0f3d2e;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+</style>
+</head>
+
+<body>
+
+<h1>مجموعة رولكس</h1>
+
+<div class="gallery">
+<img src="rolex-datejust-bleu.jpg">
+<img src="rolex-datejust-noir.jpg">
+<img src="rolex-datejust-silver.jpg">
+<img src="rolex-datejust-vert.jpg">
+<img src="rolex-daydate-arabic-turquoise.jpg">
+<img src="rolex-op-noir.jpg">
+<img src="rolex-op-rose.jpg">
+<img src="rolex-op-turquoise.jpg">
+</div>
+
+</body>
+</html>
